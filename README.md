@@ -20,3 +20,7 @@ This script requires `dig` (part of the `dnsutils` package).
 
 ```bash
 sudo apt update && sudo apt install dnsutils -y
+
+git clone
+cd DNS-Enumeration
+chmod +x dns-enum.sh
