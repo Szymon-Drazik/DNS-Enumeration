@@ -19,7 +19,8 @@
 This script requires `dig` (part of the `dnsutils` package).
 ```bash
 sudo apt update && sudo apt install dnsutils -y
-
+```
+```bash
 git clone https://github.com/Szymon-Drazik/DNS-Enumeration
 cd DNS-Enumeration
 chmod +x dns-enum.sh
