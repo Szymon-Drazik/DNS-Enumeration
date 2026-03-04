@@ -20,8 +20,14 @@ This script requires `dig` (part of the `dnsutils` package).
 ```bash
 sudo apt update && sudo apt install dnsutils -y
 ```
+## 📦 Installation & Setup
+Clone the repository, enter the directory, and grant execution permissions:
 ```bash
 git clone https://github.com/Szymon-Drazik/DNS-Enumeration
+```
+## 📖 Usage
+```bash
 cd DNS-Enumeration
 chmod +x dns-enum.sh
 ./dns-enum.sh <Domain> [@Nameserver]
+```
