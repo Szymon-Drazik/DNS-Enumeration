@@ -24,3 +24,4 @@ sudo apt update && sudo apt install dnsutils -y
 git clone https://github.com/Szymon-Drazik/DNS-Enumeration
 cd DNS-Enumeration
 chmod +x dns-enum.sh
+./dns-enum.sh <Domain> [@Nameserver]
