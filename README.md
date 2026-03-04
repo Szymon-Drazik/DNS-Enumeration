@@ -1,5 +1,4 @@
 # DNS-Enumeration
-# DNS-Enumeration
 
 ![Bash](https://img.shields.io/badge/Language-Bash-green.svg)
 ![Security](https://img.shields.io/badge/Field-Pentesting-red.svg)
@@ -24,10 +23,10 @@ sudo apt update && sudo apt install dnsutils -y
 Clone the repository, enter the directory, and grant execution permissions:
 ```bash
 git clone https://github.com/Szymon-Drazik/DNS-Enumeration
+cd DNS-Enumeration
+chmod +x dns-enum.sh
 ```
 ## 📖 Usage
 ```bash
-cd DNS-Enumeration
-chmod +x dns-enum.sh
 ./dns-enum.sh <Domain> [@Nameserver]
 ```
