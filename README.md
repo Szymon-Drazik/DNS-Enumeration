@@ -23,7 +23,7 @@ sudo apt update && sudo apt install dnsutils -y
 Clone the repository, enter the directory, and grant execution permissions:
 ```bash
 git clone https://github.com/Szymon-Drazik/DNS-Enumeration
-cd DNS-Enumeration
+cd DNS-Enumeration/bash
 chmod +x dns-enum.sh
 ```
 ## 📖 Usage
