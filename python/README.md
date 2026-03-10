@@ -22,11 +22,10 @@ pip install -r requirements.txt
 ## 📦 Installation & Setup
 Clone the repository, enter the directory, and grant execution permissions:
 ```bash
-git clone https://github.com/Szymon-Drazik/DNS-Enumeration
-cd DNS-Enumeration/bash
-chmod +x dns-enum.sh
+git clone [https://github.com/Szymon-Drazik/DNS-Enumeration](https://github.com/Szymon-Drazik/DNS-Enumeration)
+cd DNS-Enumeration/python
 ```
 ## 📖 Usage
 ```bash
-./dns-enum.sh <Domain> [@Nameserver]
+python3 dns-enum.py <Domain> [Nameserver]
 ```
