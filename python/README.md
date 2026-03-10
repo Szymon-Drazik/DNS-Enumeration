@@ -1,4 +1,4 @@
-```markdown
+
 # DNS-Enumeration (Python Edition) 🐍
 
 ![Language](https://img.shields.io/badge/Language-Python-blue) ![Field](https://img.shields.io/badge/Field-Pentesting-red)
@@ -19,4 +19,14 @@ This script requires Python 3 and the `dnspython` library.
 ```bash
 pip install -r requirements.txt
 ```
-
+## 📦 Installation & Setup
+Clone the repository, enter the directory, and grant execution permissions:
+```bash
+git clone https://github.com/Szymon-Drazik/DNS-Enumeration
+cd DNS-Enumeration/bash
+chmod +x dns-enum.sh
+```
+## 📖 Usage
+```bash
+./dns-enum.sh <Domain> [@Nameserver]
+```
